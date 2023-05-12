@@ -1,0 +1,104 @@
+
+
+
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+
+.tabber {
+}
+.tabberlive {
+ margin-top:1em;
+}
+
+
+ul.tabbernav
+{
+border: 0;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;border: 0;
+}
+
+ul.tabbernav li
+{
+display: block;
+float: left;
+text-align: center;
+padding: 0;
+margin: 0;}
+
+ul.tabbernav li a
+{
+background: #fff;
+width: 98px;
+height: 18px;
+border-top: 1px solid #f5d7b4;
+border-left: 1px solid #f5d7b4;
+border-bottom: 1px solid #f5d7b4;
+border-right: none;
+padding: 2px;
+margin: 0 0 10px 0;
+color: #f5d7b4;
+text-decoration: none;
+display: block;
+text-align: center;
+font: normal 10px/18px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+}
+
+ul.tabbernav li a:link { color: #448; }
+ul.tabbernav li a:visited { color: #667; }
+
+ul.tabbernav li a:hover
+{
+color: #930;
+background: #f5d7b4;
+}
+
+ul.tabbernav li.tabberactive a
+{
+background: #c60;
+color: #fff;
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+background: #c60;
+border: 0px solid #c60;
+color: #fff;
+}
+
+
+.tabberlive .tabbertab {
+ padding:5px;
+ border:0px solid #aaa;
+ border-top:1;
+
+
+
+
+
+
+
+
+}
+
+
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+
+
+.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;
+}

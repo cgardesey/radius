@@ -1,0 +1,62 @@
+
+
+
+   #ajax_listOfOptions_small{
+      margin-left:10px;
+      margin-top:2px;
+      position:absolute;
+      width:175px;
+      height:250px;
+      overflow:auto;
+      border:1px solid #006400;
+      background-color:#FFF;
+      text-align:left;
+      font-size:0.9em;
+      z-index:100;
+   }
+   #ajax_listOfOptions_small div{
+      margin:1px;      
+      padding:1px;
+      cursor:pointer;
+      font-size:0.9em;
+   }
+   #ajax_listOfOptions_small .optionDiv{
+      
+   }
+   #ajax_listOfOptions_small .optionDivSelected{
+      background-color:#006400;
+      color:#FFF;
+   }
+
+
+   #ajax_listOfOptions_large{
+      margin-left:10px;
+      margin-top:2px;
+      position:absolute;
+      width:265px;
+      height:250px;
+      overflow:auto;
+      border:1px solid #006400;
+      background-color:#FFF;
+      text-align:left;
+      font-size:0.9em;
+      z-index:100;
+   }
+   #ajax_listOfOptions_large div{
+      margin:1px;      
+      padding:1px;
+      cursor:pointer;
+      font-size:0.9em;
+   }
+   #ajax_listOfOptions_large .optionDiv{
+      
+   }
+   #ajax_listOfOptions_large .optionDivSelected{
+      background-color:#006400;
+      color:#FFF;
+   }
+   #ajax_listOfOptions_iframe{
+      background-color:#F00;
+      position:absolute;
+      z-index:5;
+   } 

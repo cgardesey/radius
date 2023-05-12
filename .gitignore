@@ -1,0 +1,6 @@
+.idea/
+*.log
+*.db
+invoice_preview.html
+INSTALL.win
+/library/daloradius.conf.php
